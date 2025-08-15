@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 20px;
+}
+
+.left {
+    margin-right: 50px;
+}
+
+.logo {
+    font-size: 50px;
+    color: blue;
+    font-weight: bold;
+    text-shadow: 2px 2px black;
+}
+
+.tagline {
+    font-size: 20px;
+    max-width: 400px;
+}
+
+.login-box {
+    background: whitesmoke;
+    padding: 20px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    box-shadow: 0 2px 5px;
+}
+
+.login-box input {
+    margin-bottom: 10px;
+    padding: 14px;
+    border: 1px solid white ;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+.login-btn {
+    background-color: blue;
+    color: white;
+    padding: 14px;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.login-btn:hover {
+    background-color: white;
+}
+
+.forgot-link {
+    text-align: center;
+    display: block;
+    margin: 10px 0;
+    color: #18;
+    text-decoration: none;
+}
+
+.create-btn {
+    background-color: green;
+    color: white;
+    padding: 14px;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.create-btn:hover {
+    background-color: green;
+}
+
+.create-page {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.create-page a {
+    font-weight: bold;
+    color: green;
+}
+
+footer {
+    text-align: center;
+    font-size: 12px;
+    margin-top: 50px;
+    color: grey;
+}
+
+.languages a {
+    margin: 0 8px;
+    color: blue;
+}
+
+.meta {
+    margin-top: 10px;
+}   
