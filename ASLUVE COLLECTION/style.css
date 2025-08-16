@@ -1,0 +1,67 @@
+  .body {
+      font-family: Arial, sans-serif;
+      background:pink;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .container {
+      background: #fff;
+      width: 800px;
+      padding: 20px;
+      display: flex;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      border-radius: 8px;
+    }
+    .contact-info {
+      flex: 1;
+      padding: 20px;
+      border-right: 1px solid #ddd;
+    }
+    .contact-info h4 {
+      margin-bottom: 10px;
+      font-weight: bold;
+    }
+    .contact-info p {
+      margin: 5px 0;
+      color: #555;
+    }
+    .form-section {
+      flex: 2;
+      padding: 20px;
+    }
+    .form-section h2 {
+      color: #3d2c8d;
+    }
+    .form-section p {
+      margin-bottom: 15px;
+      color: #555;
+    }
+    .input, textarea {
+      width: 100%;
+      padding: 12px;
+      margin-bottom: 15px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      outline: none;
+      font-size: 14px;
+    }
+    .textarea {
+      resize: none;
+      height: 100px;
+    }
+    .button {
+      background: #3d2c8d;
+      color:pink;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+    .button:hover {
+      background: #2a1b5f;
+    }
+  
+
