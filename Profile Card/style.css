@@ -1,0 +1,110 @@
+   * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Poppins", sans-serif;
+    }
+
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background: #f0f0f0;
+    }
+
+    .card {
+      background: #fff;
+      width: 300px;
+      border-radius: 12px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+      text-align: center;
+      overflow: hidden;
+    }
+
+    .card-header {
+      background: #3b82f6;
+      padding: 40px 20px 20px;
+    }
+
+    .card-header img {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      border: 5px solid #fff;
+      object-fit: cover;
+    }
+
+    .card h2 {
+      margin-top: 10px;
+      font-size: 20px;
+      color: #333;
+    }
+
+    .card p {
+      font-size: 14px;
+      color: #777;
+    }
+
+    .social-links {
+      margin: 15px 0;
+    }
+
+    .social-links a {
+      margin: 0 8px;
+      font-size: 18px;
+      color: #555;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+
+    .social-links a:hover {
+      color: #3b82f6;
+    }
+
+    .buttons {
+      margin: 15px 0;
+    }
+
+    .buttons button {
+      border: none;
+      padding: 10px 18px;
+      margin: 5px;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 14px;
+      transition: 0.3s;
+    }
+
+    .buttons .subscribe {
+      background: #3b82f6;
+      color: #fff;
+    }
+
+    .buttons .message {
+      background: #eee;
+      color: #333;
+    }
+
+    .buttons button:hover {
+      opacity: 0.8;
+    }
+
+    .stats {
+      display: flex;
+      justify-content: space-around;
+      padding: 15px 0;
+      border-top: 1px solid #eee;
+    }
+
+    .stats div {
+      font-size: 14px;
+      color: #555;
+    }
+
+    .stats span {
+      display: block;
+      font-weight: bold;
+      font-size: 16px;
+      color: #333;
+    }
